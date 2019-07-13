@@ -3,3 +3,11 @@
 body {
   padding-top: 20px;
 }
+
+#saveContactBtn {
+    margin-top: 15px;
+}
+
+textarea[name=messageTextarea] {
+    resize: none;
+}
