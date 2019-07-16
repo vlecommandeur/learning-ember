@@ -4,10 +4,14 @@ body {
   padding-top: 20px;
 }
 
-#saveContactBtn {
-    margin-top: 15px;
+html {
+  overflow-y: scroll;
 }
 
 textarea[name=messageTextarea] {
     resize: none;
+}
+
+.library-item {
+  min-height: 150px;
 }

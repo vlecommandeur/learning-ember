@@ -6,6 +6,7 @@
             <th>ID</th>
             <th>E-mail</th>
             <th>Message</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -14,6 +15,7 @@
             <th>{{contact.id}}</th>
             <td>{{contact.email}}</td>
             <th>{{contact.message}}</th>
+            <th><button class="btn btn-danger btn-xs" {{action 'deleteContact' contact}}>Delete</button></th>
         </tr>
         {{/each}}
     </tbody>
