@@ -1,4 +1,4 @@
-# library-app
+# learning-ember
 
 ## Running / Development
 
